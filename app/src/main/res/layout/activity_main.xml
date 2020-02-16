@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/shader_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shader" />
+
+    <Button
+        android:id="@+id/shadowlayer_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShadowLayer" />
+
+    <Button
+        android:id="@+id/maskfilter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MaskFilter" />
+
+    <Button
+        android:id="@+id/patheffect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PathEffect" />
+
+    <Button
+        android:id="@+id/alpha_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="马克笔" />
+    <Button
+        android:id="@+id/signature_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="签名板" />
+
+</LinearLayout>
